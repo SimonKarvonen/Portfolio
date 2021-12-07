@@ -7,8 +7,6 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 
-import lady from "../../../src/assets/Testimonial/lady.png";
-import mike from "../../../src/assets/Testimonial/mike.png";
 import man from "../../../src/assets/Testimonial/man.png";
 import shape from "../../../src/assets/Testimonial/shape-bg.png";
 
@@ -84,9 +82,9 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={man} alt="no internet connection"></img>
+                    <h5>John</h5>
+                    <p>CEO</p>
                   </div>
                 </div>
               </div>
@@ -118,42 +116,9 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src={mike} alt="no internet connection"></img>
-                    <h5>Mikel</h5>
-                    <p>CEO MikeTech</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="testi-item">
-                  <div className="testi-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      Simon is a humble person with lots of work ethic.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half-alt" />
-                      </li>
-                      <li>
-                        <i className="fa fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="client-info">
-                    <img src={lady} alt="no internet connection"></img>
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={man} alt="no internet connection"></img>
+                    <h5>John</h5>
+                    <p>CEO</p>
                   </div>
                 </div>
               </div>
@@ -185,8 +150,41 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <img src={man} alt="no internet connection"></img>
-                    <h5>John Smith</h5>
-                    <p>Bnaker</p>
+                    <h5>John</h5>
+                    <p>CEO</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="testi-item">
+                  <div className="testi-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Simon is a humble person with lots of work ethic.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt" />
+                      </li>
+                      <li>
+                        <i className="fa fa-star" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="client-info">
+                    <img src={man} alt="no internet connection"></img>
+                    <h5>John</h5>
+                    <p>CEO</p>
                   </div>
                 </div>
               </div>
